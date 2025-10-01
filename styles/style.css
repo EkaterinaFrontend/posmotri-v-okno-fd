@@ -191,12 +191,13 @@ html {
 
 .button {
   font-family: "Fira Sans Condensed", sans-serif;
-  font-style: bold;
+  font-weight: bold;
   font-size: 18px;
   background-color: transparent;
   color: #fff;
   min-height: 34px;
   cursor: pointer;
+  border: 1px solid #fff;
 }
 
 .search-form__submit-button {
@@ -233,7 +234,7 @@ html {
 
 .title {
   font-size: 75px;
-  font-style: bold;
+  font-weight: bold;
   font-weight: 700;
   line-height: 94%;
   text-transform: uppercase;
@@ -254,7 +255,6 @@ html {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin-bottom: 30px;
 }
 
 .content__list-item {
@@ -312,7 +312,7 @@ html {
 .content__video-card-title {
   margin-bottom: 6px;
   font-weight: 700;
-  font-style: bold;
+  font-weight: bold;
   font-size: 30px;
   text-transform: uppercase;
   text-overflow: ellipsis;
@@ -342,4 +342,5 @@ html {
 
 .more-button {
   width: 100%;
+  margin-top: 30px;
 }
